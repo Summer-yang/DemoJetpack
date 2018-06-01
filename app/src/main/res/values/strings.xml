@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DemoJetpack</string>
+
+    <string name="bottomNaviTab2">Architecture</string>
+    <string name="bottomNaviTab3">Behavior</string>
+    <string name="bottomNaviTab1">Foundation</string>
+    <string name="bottomNaviTab4">UI</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

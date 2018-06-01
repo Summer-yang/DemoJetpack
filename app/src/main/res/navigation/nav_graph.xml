@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragmentFoundation">
+    <fragment
+        android:id="@+id/fragmentFoundation"
+        android:name="com.summer.demo.jetpack.components.foundation.FoundationFragment"
+        android:label="fragment_foundation"
+        tools:layout="@layout/fragment_foundation" />
+    <fragment
+        android:id="@+id/fragmentArchitecture"
+        android:name="com.summer.demo.jetpack.components.architecture.ArchitectureFragment"
+        android:label="fragment_architecture"
+        tools:layout="@layout/fragment_architecture">
+        <action
+            android:id="@+id/action_fragmentArchitecture_to_fragmentDataBinding"
+            app:destination="@id/fragmentDataBinding" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentBehavior"
+        android:name="com.summer.demo.jetpack.components.behavior.BehaviorFragment"
+        android:label="fragment_behavior"
+        tools:layout="@layout/fragment_behavior" />
+    <fragment
+        android:id="@+id/fragmentUI"
+        android:name="com.summer.demo.jetpack.components.ui.UIFragment"
+        android:label="fragment_ui"
+        tools:layout="@layout/fragment_ui" />
+    <fragment
+        android:id="@+id/fragmentDataBinding"
+        android:name="com.summer.demo.jetpack.components.architecture.data.binding.FragmentDataBinding"
+        android:label="fragment_fragment_data_binding"
+        tools:layout="@layout/fragment_fragment_data_binding" />
+</navigation>
